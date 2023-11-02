@@ -1,0 +1,55 @@
+.listado-sm {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+.listado-md {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+.listado-lg {
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+}
+.listado-xl {
+  width: 98%;
+  margin-left: 1%;
+  text-align: center;
+}
+.menu {
+  text-align: right !important;
+  padding-bottom: 2vw;
+  margin: 3vh 1vw !important;
+  height: auto
+}
+.menu .filtros {
+  float: left;
+  width: 70%;
+  text-align: left;
+}
+.menu .filtros-lg {
+  float: left;
+  width: 80%;
+  text-align: left;
+}
+.menu .botones {
+  float: left;
+  width: 30%;
+}
+.menu .botones-2 {
+  float: right;
+  width: 30%;
+}
+.menu .botones-3 {
+  float: right;
+  width: 50%;
+}
+.menu .botones-sm {
+  float: right;
+  width: 20%;
+}
+.btn-crud i{
+  padding: 0 1vw !important;
+}

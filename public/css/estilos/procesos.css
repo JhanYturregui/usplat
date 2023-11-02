@@ -1,0 +1,114 @@
+.container-formulario-sm {
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+}
+.container-formulario-md {
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+.container-formulario-lg {
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+}
+.container-formulario-xl {
+  width: 98%;
+  margin-left: 1%;
+  text-align: center;
+}
+.input-cantidad {
+  text-align: right;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  padding: 3px;
+  width: 40%;
+}
+.input-cantidad-md {
+  width: 90% !important;
+}
+.input-cantidad-lg {
+  width: 150% !important;
+}
+.select-md-mobile {
+  width: 5vw !important;
+  font-size: 0.9em !important;
+  padding: 5px !important;
+}
+
+@media screen and (max-width: 800px){
+  .carrito {
+    font-size: 0.7em !important;
+  }
+  .input-md-mobile {
+    width: 7vw !important;
+    font-size: 0.9em !important;
+  }
+  .input-lg-mobile {
+    width: 21vw !important;
+    font-size: 0.9em !important;
+  }
+  .no-mobile {
+    display: none !important;
+  }
+  .table-mobile {
+    font-size: 0.7em !important;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px){
+  .carrito {
+    font-size: 0.8em !important;
+  }
+  .input-md-mobile {
+    width: 5vw !important;
+    font-size: 0.9em !important;
+  }
+  .input-lg-mobile {
+    width: 20vw !important;
+    font-size: 0.9em !important;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1440px){
+  .carrito {
+    font-size: 0.8em !important;
+  }
+  .input-md-mobile {
+    width: 4vw !important;
+    font-size: 0.9em !important;
+  }
+  .input-lg-mobile {
+    width: 19vw !important;
+    font-size: 0.9em !important;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1900px){
+  .carrito {
+    font-size: 0.9em !important;
+  }
+  .input-md-mobile {
+    width: 5vw !important;
+    font-size: 0.9em !important;
+  }
+  .input-lg-mobile {
+    width: 12vw !important;
+    font-size: 0.9em !important;
+  }
+}
+
+@media screen and (min-width: 1901px){
+  .carrito {
+    font-size: 0.8em !important;
+  }
+  .input-md-mobile {
+    width: 3vw !important;
+    font-size: 0.9em !important;
+  }
+  .input-lg-mobile {
+    width: 15vw !important;
+    font-size: 0.9em !important;
+  }
+}
